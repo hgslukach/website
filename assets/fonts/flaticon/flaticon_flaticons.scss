@@ -1,0 +1,129 @@
+$flaticon_flaticons-font: "flaticon_flaticons";
+
+@font-face {
+    font-family: $flaticon_flaticons-font;
+    src: url("./flaticon_flaticons.woff2?cab6045e4dae81d92ff14bf3df411495") format("woff2"),
+url("./flaticon_flaticons.woff?cab6045e4dae81d92ff14bf3df411495") format("woff"),
+url("./flaticon_flaticons.eot?cab6045e4dae81d92ff14bf3df411495#iefix") format("embedded-opentype"),
+url("./flaticon_flaticons.ttf?cab6045e4dae81d92ff14bf3df411495") format("truetype"),
+url("./flaticon_flaticons.svg?cab6045e4dae81d92ff14bf3df411495#flaticon_flaticons") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_flaticons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_flaticons-map: (
+    "house": "\f101",
+    "facebook": "\f102",
+    "twitter": "\f103",
+    "instagram": "\f104",
+    "linkedin": "\f105",
+    "levels": "\f106",
+    "heart": "\f107",
+    "shared-vision": "\f108",
+    "add": "\f109",
+    "customer-satisfaction": "\f10a",
+    "quotes": "\f10b",
+    "share": "\f10c",
+    "person": "\f10d",
+    "location": "\f10e",
+    "house-cleaning": "\f10f",
+    "wipe": "\f110",
+    "teamwork": "\f111",
+    "trophy": "\f112",
+    "laundry": "\f113",
+    "wipe-1": "\f114",
+    "buildings": "\f115",
+    "car": "\f116",
+    "laundry-1": "\f117",
+    "toilet": "\f118",
+    "window-cleaner": "\f119",
+    "plans": "\f11a",
+);
+
+.flaticon-house:before {
+    content: map-get($flaticon_flaticons-map, "house");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon_flaticons-map, "facebook");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon_flaticons-map, "twitter");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon_flaticons-map, "instagram");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon_flaticons-map, "linkedin");
+}
+.flaticon-levels:before {
+    content: map-get($flaticon_flaticons-map, "levels");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon_flaticons-map, "heart");
+}
+.flaticon-shared-vision:before {
+    content: map-get($flaticon_flaticons-map, "shared-vision");
+}
+.flaticon-add:before {
+    content: map-get($flaticon_flaticons-map, "add");
+}
+.flaticon-customer-satisfaction:before {
+    content: map-get($flaticon_flaticons-map, "customer-satisfaction");
+}
+.flaticon-quotes:before {
+    content: map-get($flaticon_flaticons-map, "quotes");
+}
+.flaticon-share:before {
+    content: map-get($flaticon_flaticons-map, "share");
+}
+.flaticon-person:before {
+    content: map-get($flaticon_flaticons-map, "person");
+}
+.flaticon-location:before {
+    content: map-get($flaticon_flaticons-map, "location");
+}
+.flaticon-house-cleaning:before {
+    content: map-get($flaticon_flaticons-map, "house-cleaning");
+}
+.flaticon-wipe:before {
+    content: map-get($flaticon_flaticons-map, "wipe");
+}
+.flaticon-teamwork:before {
+    content: map-get($flaticon_flaticons-map, "teamwork");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon_flaticons-map, "trophy");
+}
+.flaticon-laundry:before {
+    content: map-get($flaticon_flaticons-map, "laundry");
+}
+.flaticon-wipe-1:before {
+    content: map-get($flaticon_flaticons-map, "wipe-1");
+}
+.flaticon-buildings:before {
+    content: map-get($flaticon_flaticons-map, "buildings");
+}
+.flaticon-car:before {
+    content: map-get($flaticon_flaticons-map, "car");
+}
+.flaticon-laundry-1:before {
+    content: map-get($flaticon_flaticons-map, "laundry-1");
+}
+.flaticon-toilet:before {
+    content: map-get($flaticon_flaticons-map, "toilet");
+}
+.flaticon-window-cleaner:before {
+    content: map-get($flaticon_flaticons-map, "window-cleaner");
+}
+.flaticon-plans:before {
+    content: map-get($flaticon_flaticons-map, "plans");
+}
