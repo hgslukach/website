@@ -1,0 +1,9 @@
+// purple theme
+:root {
+  --base-color: #bb54e1;
+}
+
+.base-img {
+  filter: brightness(0) saturate(100%) invert(56%) sepia(58%) saturate(5293%)
+    hue-rotate(250deg) brightness(91%) contrast(93%);
+}

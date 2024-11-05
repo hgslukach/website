@@ -1,0 +1,9 @@
+// green theme
+:root {
+  --base-color: #3ead3c;
+}
+
+.base-img {
+  filter: brightness(0) saturate(100%) invert(59%) sepia(11%) saturate(2818%)
+    hue-rotate(70deg) brightness(94%) contrast(82%);
+}

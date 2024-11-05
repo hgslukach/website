@@ -1,0 +1,20 @@
+/* ==== 
+ --------- (5.08) partner section styles start ---------
+ ==== */
+.partner {
+  padding-top: 190px;
+  background-color: #f6fdff;
+
+  .partner__slider-single {
+    text-align: center;
+    img {
+      transition: var(--transition);
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+/* ==== 
+ --------- (5.08) partner section styles end ---------
+ ==== */

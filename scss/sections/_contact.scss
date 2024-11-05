@@ -1,0 +1,111 @@
+/* ==== 
+ --------- (5.13) contact section styles start ---------
+ ==== */
+.contact-map {
+  padding-top: 100px;
+  .map-inner {
+    iframe {
+      max-height: 400px;
+    }
+  }
+}
+
+.contact {
+  padding: 100px 0px;
+  position: relative;
+  z-index: 1;
+
+  .topbar__item {
+    margin-top: 60px;
+    .topbar__item-single {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      padding: 30px 20px;
+      border-radius: 10px;
+      border: 1px solid #00c2ff;
+      background: #f6fdff;
+      width: 100%;
+      margin-bottom: 30px;
+      &:nth-last-of-type(1) {
+        margin-bottom: 0px;
+      }
+
+      span,
+      p {
+        font-size: 16px;
+        line-height: 1;
+      }
+
+      span {
+        font-weight: 700;
+        color: var(--base-color);
+        margin-bottom: 10px;
+      }
+      a {
+        text-transform: lowercase;
+        &:hover {
+          color: var(--base-color);
+        }
+      }
+
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .contact__form {
+    .input-group {
+      &:nth-last-of-type(1) {
+        margin-bottom: 0px;
+      }
+    }
+
+    input,
+    textarea {
+      background-color: var(--white);
+      border: 1px solid #ddd;
+      &:focus {
+        border-color: var(--base-color);
+      }
+    }
+
+    button {
+      text-transform: uppercase;
+    }
+    .input-group-textarea {
+      flex-direction: column !important;
+      gap: 0px !important;
+      align-items: flex-start !important;
+      margin-bottom: 40px;
+    }
+  }
+
+  .chain {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+    min-width: 400px;
+    min-height: 600px;
+    pointer-events: none;
+    opacity: 0.6;
+
+    #particles-js-faq {
+      position: absolute;
+    inset: 0px;
+    canvas {
+      object-fit: contain;
+      object-position: top;
+    }
+    }
+  }
+}
+
+/* ==== 
+ --------- (5.13) contact section styles end ---------
+ ==== */

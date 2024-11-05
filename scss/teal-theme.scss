@@ -1,0 +1,8 @@
+// teal theme
+:root {
+  --base-color: #44a9aa;
+}
+.base-img {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(13%) saturate(1623%)
+    hue-rotate(132deg) brightness(88%) contrast(83%);
+}

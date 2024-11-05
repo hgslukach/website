@@ -1,0 +1,371 @@
+.rtl {
+  direction: rtl;
+
+  .color-palate-inner {
+    direction: ltr !important;
+  }
+
+  .title-animation {
+    direction: ltr;
+    text-align: end;
+  }
+
+  .swiper {
+    direction: ltr;
+  }
+
+  .slider-navigation {
+    direction: ltr;
+  }
+
+  .header .header__nav-content .navbar__sub-menu a::before {
+    content: none;
+  }
+
+  .header .header__nav-content .navbar__sub-menu .active > a {
+    padding-left: 32px !important;
+  }
+
+  .header
+    .header__nav-content
+    .navbar__sub-menu
+    .navbar__item--has-children
+    > a {
+    &:hover {
+      padding-left: 32px !important;
+      &::after {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  .header .header__nav-content .navbar__sub-menu__nested {
+    left: unset;
+    right: 100%;
+    &::before {
+      content: none;
+    }
+  }
+
+  .mobile-menu .close-mobile-menu {
+    right: 5px;
+  }
+
+  .mobile-menu .navbar__sub-menu a {
+    padding-right: 80px;
+  }
+
+  .banner {
+    direction: ltr;
+  }
+
+  .about {
+    direction: ltr;
+    .about__content {
+      direction: rtl;
+    }
+
+    .about__content-inner ul li {
+      padding-left: 0px;
+      padding-right: 24px;
+    }
+
+    .about__content-review,
+    .about__content-inner__cta {
+      justify-content: space-between;
+    }
+  }
+
+  .featured-servcies .featured-servcie__cta {
+    flex-direction: row-reverse;
+  }
+
+  .section__header,
+  .team__single-content {
+    .title-animation {
+      text-align: center;
+    }
+  }
+
+  .priority {
+    .priority__thumb {
+      direction: ltr;
+    }
+  }
+
+  .testimonial {
+    .testimonial__slider-single {
+      direction: rtl;
+    }
+  }
+
+  .blog .blog__single-content .time {
+    right: unset;
+    left: 30px;
+  }
+
+  .blog .blog__single-cta {
+    direction: ltr;
+  }
+  .blog .blog__single-cta a {
+    justify-content: flex-end;
+  }
+
+  .service-two .service__single-cta a {
+    flex-direction: row-reverse;
+  }
+
+  .footer .footer__widget-group {
+    direction: ltr;
+    justify-content: flex-end;
+  }
+
+  .header-two {
+    direction: ltr;
+    .header-two__content {
+      direction: rtl;
+    }
+
+    .mobile-menu {
+      direction: rtl;
+    }
+
+    .header__nav-content .navbar__sub-menu {
+      left: unset;
+      right: 0px;
+    }
+
+    .header__nav-content .navbar__sub-menu__nested {
+      left: unset;
+      right: 100%;
+    }
+  }
+
+  .banner-two {
+    direction: ltr;
+  }
+
+  .about-two {
+    direction: ltr;
+    .title-animation {
+      text-align: start;
+    }
+  }
+
+  .featured-service-two .feature-icon-wrapper {
+    padding-left: 0px;
+    padding-right: 30px;
+  }
+
+  .testimonial-two .testimonial-two__single {
+    direction: rtl;
+  }
+
+  .pricing {
+    direction: ltr;
+  }
+
+  .blog-two .blog__single-cta a {
+    flex-direction: row-reverse;
+  }
+
+  .footer-two {
+    .footer__address {
+      direction: ltr;
+    }
+  }
+
+  .banner-three {
+    direction: ltr;
+    .banner-three__single {
+      direction: rtl;
+      .title-animation {
+        text-align: end;
+      }
+    }
+  }
+
+  .about-three {
+    direction: ltr;
+    .about-three__content {
+      direction: rtl;
+    }
+
+    ul li {
+      padding-left: 0px;
+      padding-right: 24px;
+    }
+
+    .video-btn-wrapper {
+      transform: translate(20px, 0px);
+    }
+  }
+
+  .faq {
+    direction: ltr;
+    .faq__content {
+      direction: rtl;
+    }
+  }
+
+  .accordion-item .accordion-button::before {
+    left: 0px !important;
+    right: unset !important;
+  }
+
+  .accordion-button {
+    text-align: start !important;
+  }
+
+  .accordion-button::after {
+    margin-left: 0px !important;
+    margin-right: auto !important;
+  }
+
+  .common-banner {
+    direction: ltr;
+    .title-animation {
+      text-align: center;
+    }
+  }
+
+  .blog__sidebar-widget-box {
+    direction: ltr;
+    text-align: center;
+    .title-animation {
+      text-align: center;
+    }
+  }
+
+  .project-details .project-group li {
+    padding-left: 0px;
+    padding-right: 20px;
+    &::before {
+      left: unset;
+      right: 0px;
+    }
+  }
+
+  .pricing-two {
+    .section__content {
+      direction: rtl;
+    }
+  }
+
+  .coming-soon,
+  .error-section {
+    .title-animation {
+      text-align: center;
+    }
+  }
+
+  .blog__sidebar-widget .search-group {
+    input {
+      border-radius: 0px 10px 10px 0px;
+      border-right: 1px solid #ddd;
+      border-left: 0px;
+    }
+
+    button {
+      border-radius: 10px 0px 0px 10px;
+    }
+  }
+
+  .blog__sidebar-widget ul a i {
+    transform: rotate(180deg);
+  }
+
+  .blog-details .details-footer {
+    direction: ltr;
+  }
+
+  .details-comment-form {
+    .text-start {
+      text-align: start !important;
+    }
+  }
+
+  .contact {
+    direction: ltr;
+    .contact__content,
+    .contact__form {
+      direction: rtl;
+    }
+  }
+
+  @media only screen and (min-width: 576px) {
+    .testimonial-two .testimonial-two__single-intro {
+      padding-right: 0px;
+      padding-left: 24px;
+      border-radius: 50px 50px 50px 20px;
+    }
+
+    .footer-three .footer__content form button {
+      border-radius: 5px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .text-lg-start {
+      text-align: start !important;
+    }
+
+    .text-lg-end {
+      text-align: end !important;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .header .header__nav-content {
+      padding-left: 24px;
+      margin-right: -15px;
+    }
+    .sticky-header .header__nav .header__nav-content {
+      padding: 0px;
+      margin-right: 0px;
+    }
+
+    .header-two .header__nav-content {
+      padding-left: 35px;
+      margin-right: 0px;
+    }
+
+    .featured-servcies .featured-services__thumb {
+      padding-right: 0px;
+      padding-left: 20px;
+    }
+
+    .priority .priority__thumb {
+      padding-left: 0px;
+      padding-right: 15px;
+    }
+
+    .testimonial .slider-navigation {
+      left: 223px;
+      right: 0px;
+    }
+
+    .footer .footer__widget-alter {
+      padding-left: 0px;
+      padding-right: 40px;
+    }
+
+    .footer-two .footer__widget-alter {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .header-three .header__nav-content {
+      padding-right: 15px;
+      padding-left: 0px;
+      margin-right: 0px;
+    }
+
+    .header-three .btn--primary {
+      border-radius: 0px;
+      border-bottom-left-radius: 20px;
+    }
+  }
+}
