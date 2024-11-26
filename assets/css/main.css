@@ -72,9 +72,9 @@
   --template-color: #666666;
   --white: #ffffff;
   --black: #000000;
-  --primary-color: #00c2ff;
+  --primary-color: #23714c;
   --secondary-color: #ffb800;
-  --tertiary-color: #020039;
+  --tertiary-color: #00391d;
   --quaternary-color: #00c2ff;
   --quinary-color: #212121;
   --transition: all 0.5s ease;
@@ -3444,8 +3444,8 @@ span {
   -webkit-transform-origin: top;
       -ms-transform-origin: top;
           transform-origin: top;
-  -webkit-transition: all 1000ms ease;
-  transition: all 1000ms ease;
+  -webkit-transition: all 2000ms ease;
+  transition: all 2000ms ease;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -3468,8 +3468,8 @@ span {
   -webkit-transform-origin: top;
       -ms-transform-origin: top;
           transform-origin: top;
-  -webkit-transition: all 1000ms ease;
-  transition: all 1000ms ease;
+  -webkit-transition: all 2000ms ease;
+  transition: all 2000ms ease;
 }
 .banner .banner-two__single p {
   font-size: 18px;
@@ -3482,7 +3482,7 @@ span {
       -ms-transform-origin: top;
           transform-origin: top;
   -webkit-transition: all 1000ms ease;
-  transition: all 1000ms ease;
+  transition: all 2000ms ease;
   color: var(--white);
 }
 .banner .banner-two__single .cta {
@@ -3493,7 +3493,7 @@ span {
   -webkit-transform-origin: top;
       -ms-transform-origin: top;
           transform-origin: top;
-  -webkit-transition: all 1000ms ease;
+  -webkit-transition: all 2000ms ease;
   transition: all 1000ms ease;
 }
 .banner .swiper-slide-active .banner-two__single span {
