@@ -796,5 +796,30 @@
 
       <!-- main js -->
       <script src="assets/js/custom.js"></script>
+<!-- Cookie-Zustimmungs-Banner Start -->
+<div id="cookieConsent" style="position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(0,0,0,0.8); color: #fff; padding: 15px 20px; text-align: center; z-index: 10000;">
+  <span>
+    Wir verwenden Cookies, um Ihre Erfahrung auf unserer Webseite zu verbessern. Wenn Sie fortfahren, stimmen Sie unserer 
+    <a href="privacy.html" style="color: #bcd73d; text-decoration: underline;">Cookie-Richtlinie</a> zu.
+  </span>
+  <button id="acceptCookies" style="margin-left: 20px; background: #bcd73d; color: #000; border: none; padding: 10px 15px; cursor: pointer;">
+    Verstanden!
+  </button>
+</div>
+
+<script>
+  // Banner ausblenden, wenn bereits zugestimmt wurde
+  if (localStorage.getItem('cookieConsent') === 'true') {
+    document.getElementById('cookieConsent').style.display = 'none';
+  }
+  
+  // Zustimmung speichern und Banner ausblenden, wenn der Benutzer zustimmt
+  document.getElementById('acceptCookies').addEventListener('click', function() {
+    localStorage.setItem('cookieConsent', 'true');
+    document.getElementById('cookieConsent').style.display = 'none';
+  });
+</script>
+<!-- Cookie-Zustimmungs-Banner Ende -->
+
    </body>
 </html>
